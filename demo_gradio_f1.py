@@ -1,6 +1,3 @@
-import asyncio
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-
 from diffusers_helper.hf_login import login
 
 import os
