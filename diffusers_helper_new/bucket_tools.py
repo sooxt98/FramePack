@@ -32,6 +32,5 @@ def find_nearest_bucket(h, w, resolution=640):
         best_bucket = (scaled_height, scaled_width)
         print(f'Resolution: {best_bucket[1]} x {best_bucket[0]}')
 
-    # return best_bucket
-    return (720, 1280)
+    return best_bucket
 
