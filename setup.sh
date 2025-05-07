@@ -12,6 +12,8 @@ cd FramePack
 # Install PyTorch, TorchVision, and TorchAudio with CUDA 12.6 support
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
+pip install sageattention==1.0.6
+
 # Install the Python dependencies listed in requirements.txt
 pip install -r requirements.txt
 
