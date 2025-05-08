@@ -18,4 +18,4 @@ pip install sageattention==1.0.6
 pip install -r requirements.txt
 
 # Run the Gradio demo script with sharing enabled
-python demo_gradio_f1.py --port 8888
+python run.py --port 8888
