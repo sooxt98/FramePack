@@ -12,10 +12,14 @@ cd FramePack
 # Install PyTorch, TorchVision, and TorchAudio with CUDA 12.6 support
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
+# speed boost
 pip install sageattention==1.0.6
+
+# for extend.py
+pip install decord
 
 # Install the Python dependencies listed in requirements.txt
 pip install -r requirements.txt
 
 # Run the Gradio demo script with sharing enabled
-python run.py --port 8888
+python gradio_demo_f1.py --port 8888
